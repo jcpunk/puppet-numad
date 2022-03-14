@@ -1,0 +1,7 @@
+<%- |
+  Stdlib::Absolutepath $numad_binary = '/usr/sbin/numad',
+  Array $numad_arguments = []
+| -%>
+[Service]
+ExecStart=
+ExecStart=<%= $numad_binary %> <%= $numad_arguments.join(' ') %>
