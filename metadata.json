@@ -5,6 +5,8 @@
   "summary": "Manage numad settings",
   "license": "Apache-2.0",
   "source": "https://github.com/jcpunk/puppet-numad",
+  "project_page": "https://github.com/jcpunk/puppet-numad",
+  "issues_url": "https://github.com/jcpunk/puppet-numad/issues",
   "dependencies": [
     {
       "name": "puppet/systemd",
